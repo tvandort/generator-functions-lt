@@ -49,6 +49,7 @@ Formatting doesn't matter
 ---
 
 <!-- .slide: style="text-align: left;" -->
+<!-- TODO: get MDN link -->
 
 Generator object's interface: [[MDN]]()
 
@@ -99,7 +100,48 @@ Keep state
 <!-- 7-complete.js -->
 
 <!-- this means you can do things like infinite generator-->
+<!-- infinite loop but yield hands off execution -->
 
 <!-- 8-complete.js -->
+
+---
+
+`yield` pt. 2
+
+<!-- infinity w/ skip -->
+<!-- 9-complete.js -->
+
+---
+
+What is this useful for?
+
+<!-- I don't know. Or rather I'm not sure what you would want to use these for in everyday coding. -->
+<!-- But they are -->
+
+---
+
+How &nbsp; `async` &nbsp; & &nbsp; `await` &nbsp; are implemented
+
+<!-- TODO: get link -->
+
+---
+
+Before &nbsp; `async` &nbsp; / &nbsp;`await`
+
+---
+
+<!-- koa example-->
+<!-- TODO: look at koa -->
+
+```js
+```
+
+---
+
+<!-- equivalent async await? -->
+<!-- TODO: get example -->
+
+```js
+```
 
 ---
