@@ -1,16 +1,8 @@
-const createInfiniteGenerator = function*() {
-    let number = 0;
-    while (true) {
-        yield number++;
-    }
-};
+const normalFunction = function() {};
+const generatorFunction = function*() {};
 
-const infiniteGenerator = createInfiniteGenerator();
-infiniteGenerator.next();
-infiniteGenerator.next();
-infiniteGenerator.next();
-infiniteGenerator.next();
-infiniteGenerator.next();
-infiniteGenerator.next();
-infiniteGenerator.next();
-infiniteGenerator.next();
+const normalResult = normalFunction();
+const generatorResult = generatorFunction();
+
+console.log(normalResult);
+console.log(generatorResult);

@@ -48,15 +48,33 @@ Lets explore using JavaScript
 
 ---
 
-<!-- FYI -->
-<span class="fragment">
-    Formatting doesn't matter
-</span>
+What does it look like?
 
-<pre class="fragment">
-    <code class="javascript">
-        const fn = function* () {}
-        const fn = function *() {}
-        function fn     *        () {}
-    </code>
-</pre>
+<!-- two empty functions -->
+<!-- 1-complete.js -->
+
+<!-- Let's look at the default return values -->
+<!-- 2-complete.js -->
+
+
+---
+
+<!-- .slide: style="text-align: left;" -->
+
+Generator object's interface:
+```js
+{
+    next: [Function], // Returns a value yielded by the yield expression.
+    return: [Function], // Returns the given value and finishes the generator.
+    throw: [Function] // Throws an error to a generator (also finishes the generator, unless caught from within that generator).
+}
+```
+
+---
+
+
+
+<!-- FYI -->
+Formatting doesn't matter
+
+
