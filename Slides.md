@@ -120,7 +120,18 @@ What is this useful for?
 
 ---
 
-How &nbsp; `async` &nbsp; & &nbsp; `await` &nbsp; are implemented
+How:
+
+<!-- .slide: style="text-align: left;" -->
+
+<ol>
+<li class="fragment">
+    iterators are implemented.
+</li>
+    <li class="fragment">
+        `async` &nbsp; & &nbsp; `await` &nbsp; are implemented
+    </li>
+</span>
 
 <!-- TODO: get link -->
 
