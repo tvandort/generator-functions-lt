@@ -51,7 +51,7 @@ Formatting doesn't matter
 <!-- .slide: style="text-align: left;" -->
 <!-- TODO: get MDN link -->
 
-Generator object's interface: [[MDN]]()
+Generator object's interface: [[MDN]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator#Methods)
 
 ```js
 {
@@ -95,7 +95,7 @@ Calling next
 
 ---
 
-Keep state
+Keeps state
 
 <!-- 7-complete.js -->
 
@@ -120,20 +120,18 @@ What is this useful for?
 
 ---
 
-How:
+Ex:
 
 <!-- .slide: style="text-align: left;" -->
 
 <ol>
-<li class="fragment">
-    iterators are implemented.
-</li>
     <li class="fragment">
-        `async` &nbsp; & &nbsp; `await` &nbsp; are implemented
+        how iterators are implemented.
+    </li>
+    <li class="fragment">
+        how `async` &nbsp; & &nbsp; `await` are implemented [[MDN]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*#Description)
     </li>
 </span>
-
-<!-- TODO: get link -->
 
 ---
 
@@ -142,17 +140,21 @@ Before &nbsp; `async` &nbsp; / &nbsp;`await`
 ---
 
 <!-- koa example-->
-<!-- TODO: look at koa -->
 
 ```js
+router.get("/api/customers", function*() {
+    yield api.customerSearch.call(this, this.request.query);
+});
 ```
 
 ---
 
 <!-- equivalent async await? -->
-<!-- TODO: get example -->
 
 ```js
+router.get("/api/customers", async function() {
+    await api.customerSearch.call(this, this.request.query);
+});
 ```
 
 ---
