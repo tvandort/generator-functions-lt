@@ -56,6 +56,7 @@ What does it look like?
 ---
 
 <!-- FYI -->
+
 Formatting doesn't matter
 
 <!-- Let's look at the default return values -->
@@ -66,6 +67,7 @@ Formatting doesn't matter
 <!-- .slide: style="text-align: left;" -->
 
 Generator object's interface: [[MDN]]()
+
 ```js
 {
     next: [Function], // Returns a value yielded by the yield expression.
@@ -86,8 +88,8 @@ Calling next
 
 ```js
 {
-    value: undefined // [?],
-    done: [Boolean]
+    value: undefined; // [?],
+    done: [Boolean];
 }
 ```
 
@@ -95,3 +97,18 @@ Calling next
 
 ---
 
+`yield` <!-- keyword -->
+
+<!-- 5-complete.js -->
+
+---
+
+`return` <!-- keyword -->
+
+<!-- 6-complete.js -->
+
+---
+
+Keep state
+
+---
