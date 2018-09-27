@@ -53,15 +53,19 @@ What does it look like?
 <!-- two empty functions -->
 <!-- 1-complete.js -->
 
+---
+
+<!-- FYI -->
+Formatting doesn't matter
+
 <!-- Let's look at the default return values -->
 <!-- 2-complete.js -->
-
 
 ---
 
 <!-- .slide: style="text-align: left;" -->
 
-Generator object's interface:
+Generator object's interface: [[MDN]]()
 ```js
 {
     next: [Function], // Returns a value yielded by the yield expression.
@@ -70,11 +74,24 @@ Generator object's interface:
 }
 ```
 
+<!-- 3-complete.js -->
+
 ---
 
+Calling next
 
+---
 
-<!-- FYI -->
-Formatting doesn't matter
+<!-- .slide: style="text-align: left;" -->
 
+```js
+{
+    value: undefined // [?],
+    done: [Boolean]
+}
+```
+
+<!-- 4-complete.js -->
+
+---
 

@@ -1,0 +1,3 @@
+const generatorFn = function*() {}
+
+}
