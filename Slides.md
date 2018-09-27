@@ -5,7 +5,7 @@ highlightTheme: "darkula"
 
 Generators
 
-<!-- I keep running into generators -->
+<!-- I occasionally run into generators and forget how they work and what they do -->
 
 ---
 
@@ -29,22 +29,6 @@ In computer science, a generator is a special routine that can be used to contro
 ---
 
 Lets explore using JavaScript
-
-<!-- do basic generator empty -->
-<!-- add foo bar yield -->
-<!-- next slide -->
-<!--
-    0:  empty with object with done result
-    1:  basic with string return
-    2:  show done
-    3:  add console log between each
-        to show function not completing by looking at console
-    4:  show return completing done
--->
-<!-- 1-complete.js if stuck -->
-
-<!-- basic with infinite return -->
-<!-- 2-complete.js if stuck -->
 
 ---
 
@@ -105,10 +89,17 @@ Calling next
 
 `return` <!-- keyword -->
 
+<!-- marks as done-->
 <!-- 6-complete.js -->
 
 ---
 
 Keep state
+
+<!-- 7-complete.js -->
+
+<!-- this means you can do things like infinite generator-->
+
+<!-- 8-complete.js -->
 
 ---
